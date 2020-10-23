@@ -27,7 +27,7 @@ Room.propTypes = {
   room: PropTypes.shape({
     name: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
-    image: PropTypes.arrayOf(PropTypes.string).isRequired,
+    images: PropTypes.arrayOf(PropTypes.string).isRequired,
     price: PropTypes.number.isRequired
   })
 }
