@@ -24,8 +24,6 @@ Beach resort website with list of rooms. The project is developed with React.js 
 ### Feature
 * Allow user to filter rooms.
 * Website owner can easily modify data without any developing knowledge.
-* Format markdown document with Github-markdown-css & markdown-it
-* Async actions in Redux with Thunk
 
 ## Getting Started
 
