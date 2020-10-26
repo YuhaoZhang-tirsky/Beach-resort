@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<h3 align="center">Beach resort</h3>
+Live project demo: https://beach-rooms.netlify.app
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Feature](#feature)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Demo](#demo)
+* [Contact](#contact)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
+Beach resort website with list of rooms. The project is developed with React.js and get data from Contentful which helps the website owner can easily modify data without any developing knowledge.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Built With
+* [React](https://reactjs.org/)
+* [Contentful](https://www.contentful.com/)
 
-### `npm test`
+### Feature
+* Allow user to filter rooms.
+* Website owner can easily modify data without any developing knowledge.
+* Format markdown document with Github-markdown-css & markdown-it
+* Async actions in Redux with Thunk
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+```sh
+npm install npm@latest -g
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Get a free account at Contentful and set up space and content model.
+2. Clone the repo
+```sh
+git clone https://github.com/YuhaoZhang-tirsky/beach-resort.git
+```
+3. Install NPM packages
+```sh
+npm install
+```
+4. Enter your API and access token from Contentful in `.env.development`
+```JS
+space: REACT_APP_API_SPACE,
+accessToken: process.env.REACT_APP_ACCESS_TOKEN
+```
 
-### `npm run eject`
+## Contact
+yuhao.zhang@outlook.com
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/yuhao-zhang-fullstack

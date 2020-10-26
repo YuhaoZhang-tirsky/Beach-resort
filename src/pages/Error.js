@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Hero from '../components/Hero'
-import Home from './Home'
 import Banner from '../components/Banner'
 
 import { Link } from 'react-router-dom'
